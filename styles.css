@@ -14,5 +14,9 @@ body {
   scroll-snap-align: start; /* Snap to the start of each section */
   height: 100vh; /* Each section takes full viewport height */
   width: 100vw; /* Each section takes full viewport width */
+  background-image: url("./img/waterfall_forest_depth-field-view_img_21A9264-web-©Jaclyn-Tanemura-VW-1.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
   /* Add styling for individual sections */
 }
