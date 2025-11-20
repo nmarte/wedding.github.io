@@ -1,6 +1,14 @@
-body {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+body { /*  */
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "tangerine", sans-serif;
   overflow: hidden; /* Prevent body scroll */
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .parent-container {
@@ -10,7 +18,7 @@ body {
   width: 100vw; /* Full viewport width */
 }
 
-.full-page-section {
+.full-page-section-01 {
   scroll-snap-align: start; /* Snap to the start of each section */
   height: 100vh; /* Each section takes full viewport height */
   width: 100vw; /* Each section takes full viewport width */
@@ -18,5 +26,33 @@ body {
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
+  display:flex;
+  justify-content: center;
+  /* Add styling for individual sections */
+}
+
+.full-page-section-02 {
+  scroll-snap-align: start; /* Snap to the start of each section */
+  height: 100vh; /* Each section takes full viewport height */
+  width: 100vw; /* Each section takes full viewport width */
+  background-image: url("./img/bergreen-photography-13.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  display:flex;
+  justify-content: center;
+  /* Add styling for individual sections */
+}
+
+.full-page-section-03 {
+  scroll-snap-align: start; /* Snap to the start of each section */
+  height: 100vh; /* Each section takes full viewport height */
+  width: 100vw; /* Each section takes full viewport width */
+  background-image: url("./img/21A9506-web-©Jaclyn-Tanemura-VW-5.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  display:flex;
+  justify-content: center;
   /* Add styling for individual sections */
 }
